@@ -1,5 +1,5 @@
 :root {
-  /*colores*/
+  /* Colores */
   --color-primary: #d67a7b;
   --color-secondary: #fff8e1;
   --color-dark: #333;
@@ -7,14 +7,20 @@
   --color-white: #fff;
   --color-gray: #ccc;
   --color-text-dark: #555;
-  
+
   /* Espaciado */
   --spacing-small: 1rem;
   --spacing-medium: 1.5rem;
   --spacing-large: 2rem;
   --spacing-x-large: 3rem;
   --padding-section: 2rem 5%;
-  
+
+  /* Bordes y sombras */
+  --border-radius-small: 5px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 10px;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
   /* Fuente */
   --font-family-body: sans-serif;
 }
@@ -24,5 +30,136 @@
 }
 
 body {
-  background-color:var(--color-primary);
+  margin: 0;
+  font-family: var(--font-family-body);
+  background-image: var(--color-primary);
+  background-size: cover;
+  background-position: center;
 }
+/* 
+linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://via.placeholder.com/1500x1000.png?text=Fondo+Pelucheria') */
+
+/* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-medium) 5%;
+  background-color: var(--color-light);
+} */
+
+/* nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: var(--spacing-large);
+} */
+
+/* nav a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: bold;
+} */
+
+/* main {
+  padding: var(--padding-section);
+} */
+
+/* .presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-large) 0;
+  gap: var(--spacing-medium);
+} */
+
+/* .presentacion img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: var(--border-radius-large);
+} */
+
+/* .presentacion h2 {
+  color: var(--color-primary);
+  margin: 0;
+} */
+
+/* .presentacion button {
+  padding: 0.8rem var(--spacing-large);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius-small);
+  font-size: var(--spacing-small);
+  cursor: pointer;
+} */
+/* 
+#servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-large);
+  padding: var(--spacing-x-large) 0;
+} */
+
+/* #servicios section {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-small);
+  border: 1px solid var(--color-gray);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-white);
+} */
+/* 
+#servicios img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: var(--border-radius-medium);
+  margin-bottom: var(--spacing-small);
+} */
+
+/* .reseña {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-large) 0;
+} */
+
+/* .reseña figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+  padding: var(--spacing-medium);
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow);
+} */
+
+/* .reseña img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: var(--spacing-small);
+} */
+
+/* figcaption {
+  font-style: italic;
+  color: var(--color-text-dark);
+} */
+
+/* footer {
+  text-align: center;
+  padding: var(--spacing-medium) 5%;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}  */
