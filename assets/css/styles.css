@@ -22,3 +22,7 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color:var(--color-primary);
+}
