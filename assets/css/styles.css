@@ -1,8 +1,9 @@
+/*se definen las varables globales*/
 :root {
   /* Colores */
-  --color-primary: #d67a7b;
-  --color-secondary: #fff8e1;
-  --color-dark: #333;
+  --color-primary: #154D71;
+  --color-secondary: #33A1E0;
+  --color-dark: #000000;
   --color-light: #f7f7f7;
   --color-white: #fff;
   --color-gray: #ccc;
@@ -32,61 +33,59 @@
 body {
   margin: 0;
   font-family: var(--font-family-body);
-  background-image: var(--color-primary);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://via.placeholder.com/1500x1000.png?text=Fondo+Pelucheria');
   background-size: cover;
   background-position: center;
 }
-/* 
-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://via.placeholder.com/1500x1000.png?text=Fondo+Pelucheria') */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--spacing-medium) 5%;
-  background-color: var(--color-light);
+  background-color: var(--color-secondary);
 }
 
-/* nav ul {
+nav ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   gap: var(--spacing-large);
-} */
+}
 
-/* nav a {
+nav a {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-white);
   font-weight: bold;
-} */
+}
 
-/* main {
+main {
   padding: var(--padding-section);
-} */
+}
 
-/* .presentacion {
+.presentacion {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: var(--spacing-large) 0;
   gap: var(--spacing-medium);
-} */
+}
 
-/* .presentacion img {
+.presentacion img {
   width: 100%;
   max-width: 500px;
   height: auto;
   border-radius: var(--border-radius-large);
-} */
+}
 
-/* .presentacion h2 {
+.presentacion h2 {
   color: var(--color-primary);
   margin: 0;
-} */
+}
 
-/* .presentacion button {
+.presentacion button {
   padding: 0.8rem var(--spacing-large);
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -94,44 +93,44 @@ header {
   border-radius: var(--border-radius-small);
   font-size: var(--spacing-small);
   cursor: pointer;
-} */
-/* 
+}
+
 #servicios {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--spacing-large);
   padding: var(--spacing-x-large) 0;
-} */
+}
 
-/* #servicios section {
+#servicios section {
   flex: 1 1 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: var(--spacing-small);
-  border: 1px solid var(--color-gray);
+  border: 1px solid var(--color-white);
   border-radius: var(--border-radius-medium);
   box-shadow: var(--box-shadow);
   background-color: var(--color-white);
-} */
-/* 
+}
+
 #servicios img {
   width: 100%;
   max-width: 250px;
   height: auto;
   border-radius: var(--border-radius-medium);
   margin-bottom: var(--spacing-small);
-} */
+}
 
-/* .reseña {
+.reseña {
   display: flex;
   justify-content: center;
   padding: var(--spacing-large) 0;
-} */
+}
 
-/* .reseña figure {
+.reseña figure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,23 +142,29 @@ header {
   background-color: var(--color-secondary);
   border-radius: var(--border-radius-large);
   box-shadow: var(--box-shadow);
-} */
+}
 
-/* .reseña img {
+.reseña img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   margin-bottom: var(--spacing-small);
-} */
+}
 
-/* figcaption {
+figcaption {
   font-style: italic;
-  color: var(--color-text-dark);
-} */
+  color: var(--color-white);
+}
 
-/* footer {
+footer {
   text-align: center;
   padding: var(--spacing-medium) 5%;
-  background-color: var(--color-dark);
+  background-color: var(--color-secondary);
   color: var(--color-white);
-}  */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
