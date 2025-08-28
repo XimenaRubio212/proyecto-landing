@@ -1,0 +1,24 @@
+:root {
+  /*colores*/
+  --color-primary: #d67a7b;
+  --color-secondary: #fff8e1;
+  --color-dark: #333;
+  --color-light: #f7f7f7;
+  --color-white: #fff;
+  --color-gray: #ccc;
+  --color-text-dark: #555;
+  
+  /* Espaciado */
+  --spacing-small: 1rem;
+  --spacing-medium: 1.5rem;
+  --spacing-large: 2rem;
+  --spacing-x-large: 3rem;
+  --padding-section: 2rem 5%;
+  
+  /* Fuente */
+  --font-family-body: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
