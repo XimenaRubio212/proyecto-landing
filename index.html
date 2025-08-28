@@ -5,15 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page - Pelucheria</title>
+  <!--Se enlaza la carpeta donde se encuentra el archivo de styles.css-->
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
   <header>
-
+    <!--se coloca el titulo principal-->
     <h1>Pelucheria</h1>
+    <!--se agrega una etiqueta de imagenes para representar el logo de la pagina-->
+    <figure>
+      <img src="assets/img/image.png" alt="Pareja">
+    </figure>
+    <!--se agrega una etiqueta de navegacion-->
     <nav>
+      <!--se coloca la etiqueta de lista desordenada-->
       <ul>
+        <!--se coloca la etiqueta de lista-->
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#servicios">Servicios</a></li>
         <li><a href="#contacto">Contacto</a></li>
@@ -21,21 +29,26 @@
     </nav>
   </header>
 
+  <!--definimos un contenido principal-->
   <main>
+    <!--se agrega un section para separa y poder identificar cada uno de los productos/servicios o anuncios-->
     <section class="presentacion" id="inicio">
-      <figure>
-        <img src="assets/img/image.png" alt="Pareja">
-      </figure>
+      <!--se coloca un subtitulo para una rebaja de la misma pagina-->
       <h2>Por la compra mínima de $10.000 pesos Col Envíos a partir de $30.000 pesos Col</h2>
+      <!--se crea un articulo para dar anuncio de un nuevo peluche-->
       <article>Este peluche es más que un simple juguete; es un abrazo en forma de oso. Fabricado con los materiales
         más
         suaves y seguros, es el compañero ideal para todas las edades. Sus ojos brillantes y su sonrisa tierna lo
         convierten en un amigo leal, listo para compartir secretos, aventuras y momentos de paz.</article>
+      <!--se agrega un boton-->
       <button>Call to Action</button>
     </section>
 
+    <!--se agrega un section para separar y poder identificar los diferentes servicios que ofrece la pagina-->
     <section id="servicios">
+      <!--se agrega un section para identificar unico producto-->
       <section class="producto_osos">
+        <!--se agrega un figure para poder agregar una imagen diferente para cada servicio-->
         <figure>
           <img src="assets/img/image2.png" alt="Oso de peluche Teddy">
         </figure>
@@ -72,6 +85,7 @@
       </section>
     </section>
 
+    <!--se agrega un section con una reseña para identificar al usuario que ya ha visitado l apagina y que haya dejado su comentario-->
     <section class="reseña">
       <figure>
         <img src="assets/img/image1.png" alt="Foto de perfil de cliente">
@@ -81,8 +95,10 @@
     </section>
   </main>
 
+  <!--se agrega un footer - un pie de pagina para poder reclamar o reservar los derechos del author de dicha pagina-->
   <footer>
     <p>&copy; 2025 Pelucheria. Todos los derechos reservados.</p>
+    <!--se agrega una lista desordenada para mostrar otra lista donde muestre las diferentes redes sociales de landing page-->
     <ul>
       <li><a href="#">Facebook</a></li>
       <li><a href="#">Instagram</a></li>
